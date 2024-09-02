@@ -4,9 +4,10 @@ public class DesafioTres {
         int soma = 0;
         int k = 1;
         while (k < indice){
-            k = k+1;
-            soma = soma + k;
+            k++;
+            soma+= k;
             System.out.println(soma);
         }
     }
 }
+//resultado = 77
